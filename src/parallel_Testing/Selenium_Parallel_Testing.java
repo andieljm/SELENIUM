@@ -270,7 +270,7 @@ public class Selenium_Parallel_Testing {
                 + "1.Prueba de inicio de seccion \n"
                 + "2.Prueba de agregar al carrito \n"
                 + "3.Prueba de compra \n"
-                + "4.Prueba \n\n"
+                + "4.Prueba de \n\n"
                 + "Digite su opción:"));
 
         switch (opcion) {
