@@ -30,7 +30,8 @@ public class Selenium_Parallel_Testing extends Thread {
                 + "1.Prueba de inicio de seccion \n"
                 + "2.Prueba de agregar al carrito \n"
                 + "3.Prueba de compra \n"
-                + "4.Prueba  \n\n"
+                + "4.Prueba de busqueda \n"
+                + "5.salir \n\n"
                 + "Digite su opción:"));
 
         switch (opcion) {
@@ -63,7 +64,11 @@ public class Selenium_Parallel_Testing extends Thread {
                 break;
             }
             case 4: {
-
+                System.out.println("Ejecutando prueba 4");
+                busquedaC fc = new busquedaC();
+                busquedaE fe = new busquedaE();
+                fc.start();
+                fe.start();
                 Menu();
                 break;
             }
