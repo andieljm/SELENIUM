@@ -25,14 +25,14 @@ public class Selenium {
                 "****MENÚ PRINCIPAL****\n\n"
                 + "1.Prueba de inicio de seccion \n"
                 + "2.Cliente CRUD \n"
-                + "3. \n"
-                + "4. \n"
-                + "5. \n"
-                + "6. \n"
-                + "7. \n"
-                + "8. \n"
-                + "9. \n"
-                + "10. \n"
+                + "3.Control de Limite \n"
+                + "4.Carrito de compras \n"
+                + "5.Categoria CRUD \n"
+                + "6.Cambio de idioma \n"
+                + "7.Revirsar articulos \n"
+                + "8.Articulos CRUD \n"
+                + "9.Comprar \n"
+                + "10.Vista de inventario\n"
                 + "11.Salir \n\n"
                 + "Digite su opción:"));
 
@@ -52,31 +52,31 @@ public class Selenium {
             }
             case 3: {
                 System.out.println("Ejecutando prueba 3");
-
+                cc.limite();
                 Menu();
                 break;
             }
             case 4: {
                 System.out.println("Ejecutando prueba 4");
-
+                cc.carrito();
                 Menu();
                 break;
             }
             case 5: {
                 System.out.println("Ejecutando prueba 5");
-
+                cc.categorias();
                 Menu();
                 break;
             }
             case 6: {
                 System.out.println("Ejecutando prueba 6");
-
+                cc.idioma();
                 Menu();
                 break;
             }
             case 7: {
                 System.out.println("Ejecutando prueba 7");
-
+                cc.revisarA();
                 Menu();
                 break;
             }
